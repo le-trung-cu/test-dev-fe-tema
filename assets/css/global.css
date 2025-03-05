@@ -1,0 +1,11 @@
+body {
+  font-family: Montserrat, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+:root {
+  --background: #ffff;
+  --foreground: #EEEE;
+  --muted: 0, 0%, 46%;
+  --muted-foreground: #757575;
+}
