@@ -1,3 +1,36 @@
+https://test-dev-fe-tema.vercel.app/
+
+## Evidence
+
+### Desktop
+#### hero section
+![hero section](./images/evidence-01.png)
+
+#### about section
+![about section](./images/evidence-02.png)
+
+#### games section
+![games section](./images/evidence-03.png)
+
+#### footer section
+![footer section](./images/evidence-04.png)
+
+
+### Mobile
+
+#### hero section
+![hero section](./images/evidence-01-mobile.png)
+![hero section](./images/evidence-02-mobile.png)
+#### about section
+
+![about section](./images/evidence-03-mobile.png)
+![about section](./images/evidence-04-mobile.png)
+
+#### games section
+![games section](./images/evidence-05-mobile.png)
+
+#### footer section
+![footer section](./images/evidence-06-mobile.png)
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
@@ -73,3 +106,4 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
