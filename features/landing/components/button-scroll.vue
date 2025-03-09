@@ -1,6 +1,6 @@
 <template>
   <button
-    class="fixed z-[999] right-5 bottom-10 size-[66px] flex justify-center items-center bg-white rounded-full shadow-lg"
+    class="fixed z-[999] right-5 bottom-10 lg:right-[88px] lg:bottom-[280px] size-[66px] flex justify-center items-center bg-white rounded-full shadow-lg"
     @click="handleClick">
     <ArrowDown :class="['transition-transform duration-700', { 'rotate-180': isArrowUp }]" />
   </button>

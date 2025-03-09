@@ -1,7 +1,7 @@
 <template>
-  <nav class="relative z-50 container m-auto items-center justify-between pt-5 px-5 hidden md:flex">
+  <nav class="relative z-50 custom-container m-auto items-center justify-between pt-5 px-5  hidden md:flex">
     <Logo class="text-white" />
-    <div class="flex items-center space-x-6">
+    <div class="flex items-center space-x-20 pt-3.5">
       <a v-for="item in listNavigations" :key="item.href" to="#" @click.prevent="scrollToSection(item.href)"
         class="text-white text-sm font-bold uppercase cursor-pointer">
         {{ $t(item.text) }}

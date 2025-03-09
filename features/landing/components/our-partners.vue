@@ -7,7 +7,7 @@ import ArrowSquareRight from '@/icons/arrow-square-right.vue'
 
 // Carousel configuration
 const config = {
-  height: 200,
+  height: 100,
   itemsToShow: 1,
   gap: 5,
   snapAlign: 'center',
@@ -21,26 +21,26 @@ const config = {
       snapAlign: 'center',
     },
     // 400px and up
-    400: {
+    375: {
       itemsToShow: 3,
       snapAlign: 'start',
     },
     // 500px and up
     800: {
       itemsToShow: 5,
-      snapAlign: 'start',
+      snapAlign: 'center',
     },
   },
 };
 </script>
 
 <template>
-  <section class="bg-[#F6F6F6] py-10">
+  <section class="bg-[#F6F6F6] pt-[36px] pb-[53px] md:pt-[6.5rem] md:pb-[7.4rem]">
     <div class="container mx-auto">
-      <h2 class="font-black text-center text-[2.5rem] font-playfair">{{ $t('our_partners_title') }}</h2>
-      <Carousel v-bind="config" class="mt-5 h-[72px]">
-        <Slide v-for="image in images" :key="image" class="h-[72px]">
-          <img :src="image" alt="image" class="h-[72px]"/>
+      <h2 class="font-black text-center text-[2.5rem] lg:text-[3.75rem] tracking-wide md:tracking-[0.062em] font-playfair">{{ $t('our_partners_title') }}</h2>
+      <Carousel v-bind="config" class="mt-5 lg:mt-[4rem] lg:-mx-[16px] h-[72px] lg:h-[100px] lg:px-10">
+        <Slide v-for="image in images" :key="image" class="">
+          <img :src="image" alt="image" class="h-[72px] lg:h-[100px]"/>
         </Slide>
         <template #addons>
           <Navigation class="mx-5">

@@ -1,9 +1,9 @@
 <template>
   <div class="card-game relative aspect-[164/268] md:aspect-[410/560] rounded-lg overflow-clip shadow-xl">
     <img :src="photo" alt="" class="absolute top-0 left-0 h-full w-full object-cover">
-    <div class="absolute bottom-0 pb-4 px-2 md:pb-7 md:px-7 z-10 ">
-      <h5 class="text-2xl text-white font-bold">{{ title }}</h5>
-      <p class="text-xs font-normal mt-1 text-white/75">{{ description }}</p>
+    <div class="absolute left-0 bottom-0 w-full pb-2.5 md:pb-3 pl-2 md:pl-8 md:bottom-7 z-10 ">
+      <h5 class="text-2xl md:w-[94%] md:text-5xl text-white font-bold lg:leading-[1.18] -tracking-[0.02em]">{{ title }}</h5>
+      <p class="text-xs w-[94%] pr-3 md:text-sm font-normal mt-1 md:mt-4 text-white/75 tracking-[0.06em] leading-[1.22] md:tracking-normal">{{ description }}</p>
     </div>
   </div>
 </template>

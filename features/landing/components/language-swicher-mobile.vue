@@ -1,9 +1,9 @@
 <template>
   <div :class="['relative', dynamicClass]">
-    <button @click="open = !open" class="flex items-center bg-[#F6F6F6] border-[#AFAFAF] px-5 py-1 border rounded-lg">
+    <button @click="open = !open" class="flex items-center bg-[#F6F6F6] border-[#AFAFAF] px-2 py-1 border rounded-lg">
       <img :src="photos[locale]" class="mr-5" />
       <div
-        class="inline-block border-[6px] border-t-transparent border-l-transparent rotate-45 origin-center -translate-y-1 border-black shadow-2xl">
+        class="inline-block border-[4px] border-t-transparent border-l-transparent rotate-45 origin-center -translate-y-1 border-black shadow-2xl">
       </div>
     </button>
     <div v-if="open" class="absolute top-[50px] left-0 bg-white rounded-2xl px-2 w-[230px] border">

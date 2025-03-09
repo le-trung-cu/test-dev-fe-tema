@@ -1,16 +1,16 @@
 <template>
-  <nav class="container relative z-20 px-5 m-auto items-center pt-5 flex justify-between md:hidden">
-    <Logo class="text-white" />
+  <nav class="container relative z-20 px-4 m-auto items-center pt-[2.1rem] flex justify-between md:hidden">
+    <Logo class="text-white w-[70px]" />
     <button @click="open = true">
       <ThreeLine />
     </button>
     <div v-if="open" class="fixed top-0 left-0 right-0 h-svh bg-white z-50">
-      <div class="flex justify-between items-center px-5 py-5">
+      <div class="flex justify-between items-center px-5 pt-4">
         <LanguageSwicherMobile/>
         <button @click="open=false"><X/></button>
       </div>
-      <div class="">
-        <NuxtLink class="block py-7 text-center font-bold text-sm uppercase [&:not(:last-child)]:border-b" v-for="item in listNavigations" :key="item.text" href="/">{{ $t(item.text) }}</NuxtLink>
+      <div class="mt-6">
+        <NuxtLink class="flex justify-center items-center h-[65px]  text-center font-bold text-sm uppercase [&:not(:last-child)]:border-b" v-for="item in listNavigations" :key="item.text" href="/">{{ $t(item.text) }}</NuxtLink>
       </div>
     </div>
   </nav>
